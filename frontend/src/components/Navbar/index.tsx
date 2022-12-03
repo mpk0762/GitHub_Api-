@@ -3,13 +3,12 @@ import "./styles.css";
 
 const Navbar = () => {
   return (
-    <nav className="navbar main-nav">
-     <h1>navbar</h1>
-    
+    <nav>
+      <div className="nav-main">
+        <h1 className="nav-name">Github API</h1>
+       
+      </div>
     </nav>
-  
   );
 };
 export default Navbar;
-
-

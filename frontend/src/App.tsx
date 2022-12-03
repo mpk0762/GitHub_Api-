@@ -1,14 +1,12 @@
-import React from "react";
-
 import "./App.css";
-import Navbar from "./components/Navbar";
+
+import Routes from "./Routes";
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <h1>iniciando</h1>
-    </>
+   
+      <Routes/>
+    
   );
 }
 
