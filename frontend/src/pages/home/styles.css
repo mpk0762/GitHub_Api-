@@ -63,3 +63,19 @@
   display: flex;
   align-items: center;
 }
+.btn {
+  padding-left: 41px;
+  padding-top: 10px;
+
+}
+.inbtn{
+  height: 24px;
+  width: 65px;
+  left: 59px;
+  top: 228px;
+  border-radius: nullpx;
+}
+
+.start-button {
+  color: #fff;
+}
