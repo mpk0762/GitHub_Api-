@@ -10,7 +10,7 @@ const Home = () => {
       <div>
         <h2 className="caption-page ">Agardando o texto</h2>
       </div>
-      <div className="home-container btn">
+      <div className=" outbtn">
         <Link to="/hubsearch">
           <button className="inbtn">Iniciar</button>
         </Link>

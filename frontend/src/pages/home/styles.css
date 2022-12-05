@@ -1,12 +1,11 @@
-.div-home-container {
-  background: #e5e5e5;
-}
+
 .div-home-container {
   height: 900px;
   width: 1440px;
   left: -2967px;
   top: -449px;
   border-radius: 0px;
+  background: #e5e5e5;
 }
 .title-page {
   padding-top: 10px;
@@ -63,17 +62,23 @@
   display: flex;
   align-items: center;
 }
-.btn {
+.outbtn {
+
   padding-left: 41px;
   padding-top: 10px;
 
 }
 .inbtn{
-  height: 24px;
-  width: 65px;
-  left: 59px;
-  top: 228px;
+ 
   border-radius: nullpx;
+
+
+  height: 40px;
+  width: 160px;
+  margin-bottom: 35px;
+  color: #fff;
+
+
 }
 
 .start-button {

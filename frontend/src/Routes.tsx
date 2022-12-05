@@ -7,8 +7,8 @@ const routes = () => (
   <BrowserRouter>
     <Navbar />
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/hubsearch" element={<HubSearch />} />
+      <Route path="/" element ={<Home />} />
+      <Route path="/hubsearch" element ={<HubSearch />} />
     </Routes>
   </BrowserRouter>
 );
