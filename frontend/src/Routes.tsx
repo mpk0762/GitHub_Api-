@@ -1,15 +1,15 @@
 import Home from "pages/home";
 import HubSearch from "pages/hubsearch";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 
 const routes = () => (
   <BrowserRouter>
     <Navbar />
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/hubsearch" element={<HubSearch />} />
-    </Routes>
+    
+      <Route component = {Home} path="/" exact/>
+      <Route component = {HubSearch} path="/hubsearch" />
+   
   </BrowserRouter>
 );
 
