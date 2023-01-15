@@ -7,7 +7,7 @@ type Props = {
 
 const ResultCard = ({ title, description }: Props) => {
   return (
-    <div>
+    <div className="main-card">
       <h3>{title}</h3>
       <p>{description}</p>
     </div>

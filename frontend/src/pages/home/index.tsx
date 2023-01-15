@@ -8,7 +8,7 @@ const Home = () => {
         <h1 className="title-page ">Github </h1>
       </div>
       <div>
-        <h2 className="caption-page ">Agardando o texto</h2>
+        <h2 className="caption-page ">Pesquisar GitHub</h2>
       </div>
       <div className="home-container btn">
         <Link to="/hubsearch">

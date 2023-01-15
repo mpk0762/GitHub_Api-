@@ -1,81 +1,45 @@
-.div-home-container {
-  background: #e5e5e5;
-}
-.div-home-container {
-  height: 900px;
-  width: 1440px;
-  left: -2967px;
-  top: -449px;
-  border-radius: 0px;
-}
 .title-page {
   padding-top: 10px;
   padding-left: 41px;
-  height: 64px;
-  width: 423px;
-  left: 41px;
-  top: 89px;
-  border-radius: nullpx;
-
   font-family: "Roboto";
-  font-style: normal;
-
   font-size: 35px;
   line-height: 64px;
-
-  /* identical to box height, or 133% */
   display: flex;
   align-items: center;
   letter-spacing: 0.02em;
-
   color: #000000;
+}
+.h1 {
+  position: absolute;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
 }
 .caption-page {
   padding-top: 10px;
   padding-left: 41px;
-  height: 40px;
-  width: 423px;
-  left: 41px;
-  top: 153px;
-  border-radius: nullpx;
-
   font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
   font-size: 24px;
   line-height: 40px;
-  color: #7e7e7e;
-}
-.h1 {
-  position: absolute;
-  width: 423px;
-  height: 40px;
-  left: 41px;
-  top: 153px;
-
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 40px;
-
-  /* identical to box height, or 167% */
-  display: flex;
-  align-items: center;
+  color: #7e7e7ea2;
 }
 .btn {
   padding-left: 41px;
   padding-top: 10px;
-
 }
-.inbtn{
-  height: 24px;
-  width: 65px;
+.inbtn {
+  height: 27px;
+  width: 90px;
   left: 59px;
   top: 228px;
   border-radius: nullpx;
+  background-color: rgb(76, 55, 78);
+  color: aliceblue;
 }
 
 .start-button {
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
